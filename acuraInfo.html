@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="index.html"><img src="smallLogo.png" style="width: 40px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" style="margin-right: 20px;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="acuraInfo.html" style="margin-right: 20px; white-space:nowrap;">Our Story</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html" style="margin-right: 20px; white-space:nowrap">Gallery</a>
+        </li>    
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Car Information
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="rsx.html">RSX</a>
+            <a class="dropdown-item" href="integra.html">Integra</a>
+            <a class="dropdown-item" href="nsx.html">NSX</a>
+          </div>
+        </li>
+      </ul>
+    </div>  
+    <form class="form-inline" action="/action_page.php">
+      <input class="form-control mr-sm-2" type="text" placeholder ="Search">
+      <button class ="btn btn-danger" type ="submit">Search</button>
+      </form>
+  </nav>
+
+
+  <div class ="jumbotron text-center" style ="margin-bottom:0; margin-top: 50px;">
+    <img src="acuraSymbol.png" class="rounded" class="img-fluid" alt="rsx" width="490" height="236">
+  </div>
+
+
+
+  <div class="container" style="margin-top:30px">
+    <div class="row">
+      <div class="col-sm-16">
+        <h2 style="margin-bottom: 25px; text-align: center;" class="display-2">About Us</h2>
+        <div class="text-center">
+          <img src="acuraBanner.webp" style="margin-right: 15px;" class="thumbnail" class="img-fluid" alt="rsx" width="950" height="536"> 
+          <!--<img src="nsx3.jpeg" class="rounded" class="img-fluid" alt="rsx" width="550" height="336"> -->
+          <p style="margin-top: 25px;">Acura is the luxury vehicle division of the Japanese automaker Honda. 
+            It was introduced to the United States and Canada in March 1986, making it one of the first luxury brands from Japan 
+            to enter the North American market. The creation of Acura was part of Honda's strategy to establish itself as a global 
+            automotive leader and compete with other luxury brands, particularly from Europe and the United States.<br>
+
+            The development of Acura began in the early 1980s, and the brand was officially launched in 1986 with two initial models: 
+            the Acura Legend sedan and the Acura Integra sports coupe. These vehicles were well-received for their combination of performance,
+             comfort, and advanced technology. The Legend, in particular, played a crucial role in establishing Acura's reputation for luxury and reliability.<br>
+            
+            In the following years, Acura expanded its lineup by introducing new models, including SUVs and performance-oriented vehicles. 
+            The Acura NSX, introduced in the early 1990s, was a groundbreaking sports car that showcased Honda's engineering prowess and innovation.
+             The NSX featured advanced technologies, such as an aluminum body, a mid-engine layout, and Honda's VTEC (Variable Valve Timing and Lift Electronic Control) system.<br>
+            
+            Acura continued to evolve and innovate, introducing new technologies and design concepts to stay competitive in the
+             luxury automotive market. Over the years, Acura has produced a range of vehicles, including sedans, SUVs, and crossovers, catering to different consumer preferences.<br>
+            
+            Despite facing competition from other luxury brands, Acura has maintained a reputation for reliability, performance, 
+            and value for money. The brand has also embraced technological advancements, incorporating features such as SH-AWD (Super Handling All-Wheel Drive) 
+            and AcuraWatch, a suite of safety and driver-assistance technologies.<br>
+            
+            The Acura brand has undergone various changes and updates over the years, adapting to market trends and consumer preferences. While 
+            the specific models and technologies have evolved, Acura remains a key player in the luxury automotive segment, with a focus on 
+            delivering a premium driving experience.</p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer style="margin-top: 100px;" class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #333333;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+   </footer>
+    
+  
+
+  
+
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-dark" href="https://www.acura.com/">Acura.com</a>
+  </div>
+
+</body>
+</html>
+
+ 
+
+
